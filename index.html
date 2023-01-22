@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.div1{
+    width:1000px;
+    height: 790px;
+    background-image: url("color.jpg");
+    opacity: .9;
+    
+}
+input{
+    border-radius: 8px;
+   
+    height: 20px;
+}
+
+
+h1{
+    color: rgb(217, 8, 8);
+    font-size: 30px;
+}
+hr{
+    height: 2px;
+    color: brown;
+}
+
+
+    </style>
+</head>
+<body>
+    <form action="./submit.html" method="get" target="_self">
+    <div class="div1">
+        <div>
+        <h1>Registration Form </h1>
+        <h4>Enter your details Below </h4>
+        <form action="">
+        <ul>
+         
+            <li> &nbsp; &nbsp;<input type="email" name="your_email" id="email" placeholder="your_email@gmail.com"></li> <br>
+            <li>&nbsp; &nbsp;<input type="password" name="your_pass" id="pass" placeholder="Password" min="8" maxlength="20"></li> 
+        </ul>
+    </form>
+    <strong> <em>!Type a complex password with 8-20 characters.</em></strong>
+    <ul>
+        <li>&nbsp; &nbsp;<input type="number" name="" id="" min="8" maxlength="20" placeholder="+91 "></li>
+    
+    </ul>
+    <hr >
+    <h3>Enter your profession:</h3>
+    <ul>
+        <li>
+            <input type="radio" name="role" id="">Student
+            <input type="radio" name="role" id="">Teacher
+            <input type="radio" name="role" id="">Developer
+    
+        </li>
+    </ul>
+    <label for="stage">Choose the stage if you are(Student):</label>
+    <select name="" id="">
+        <option value="select">--Select--</option>
+    
+        <option value="School">School</option>
+        <option value="Collage">College</option>
+    </select>
+    <hr>
+    <ul>
+        <li><label for="dob">Enter your Birth date:</label>
+        <input type="date" name="" id=""></li>
+       
+    </ul>
+    <hr>
+    <ul>
+        <li> &nbsp; &nbsp;   <input type="text" name="" id="" placeholder="any note">
+        </li>
+    </ul>
+    <hr>
+    <label for="Gender">Select Gender</label>
+    <input type="radio" name="gender" id="">Male
+    <input type="radio" name="gender" id="">Female
+    <input type="radio" name="gender" id="">Other
+    
+    <hr>
+    <label for="city">City</label>
+    <select name="city" id="">
+<option value="delhi">Delhi</option>
+<option value="bangalore">bangalore</option>
+<option value="patna">Patna</option>
+<option value="bihar">Bihar</option>
+<option value="Rajisthan">Rajisthan</option>
+
+    </select>
+    <input type="submit" value="Submit" id="button"> 
+    <input type="reset" value="Reset" id="button">
+
+</form>
+</body>
+</html>
